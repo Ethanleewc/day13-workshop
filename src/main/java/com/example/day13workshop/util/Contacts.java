@@ -53,7 +53,7 @@ public class Contacts {
         String[] optNameArr = opsNames.toArray(new String[opsNames.size()]);
         if(optNameArr.length > 0){
             optValues = appArgs.getOptionValues(optNameArr[0]);
-            optValuesArr = optValues.toArray(new String[opsNames.size()]);
+            optValuesArr = optValues.toArray(new String[optValues.size()]);
             dataDirResult = optValuesArr[0];
         }
         else {

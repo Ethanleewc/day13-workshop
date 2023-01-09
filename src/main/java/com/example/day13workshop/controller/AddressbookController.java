@@ -47,7 +47,7 @@ public class AddressbookController {
                 return "addressbook";
             }
             ctcz.saveContact(contact, model, appArgs, DEFAULT_DATADIR);
-        return"result";
+        return "result";
     }
 
     private boolean checkAgeInBetween(LocalDate dob){
